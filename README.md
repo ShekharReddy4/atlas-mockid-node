@@ -14,39 +14,7 @@ In config.php update
  $api_key = "1234567890abcdef"; // same as in openmrs atlas server .env file settings
 ```
 
-
-### creating virtualhost in apache2 server
-
-- Open "/etc/apache2/extra/httpd-vhosts.conf"
-- Add a virtual host with document root pointing at atlas-mock-id. see below for reference
-  ```bash
-  Listen 3000
-  <VirtualHost *:3000>
-          DocumentRoot "/pathToYour/atlas-mock-id"
-          ServerName atlasmock.local
-          ErrorLog "/private/var/log/apache2/atlas.mock-auth-local-error_log"
-          CustomLog "/private/var/log/apache2/atlas.mock-auth-local-access_log" common
-
-          <Directory "/pathToYour/atlas-mock-id">
-                  Options Indexes FollowSymLinks MultiViews
-                  AllowOverride All
-                  Order allow,deny
-                  Allow from all
-          </Directory>
-  </VirtualHost>
-
-  ```
-- Listen command is to make apache listen on port 3000. Change is according to your configuration.
-
-- Make sure port mentioned is same as for the field ID_HOST in .env file of openmrs atlas server.
-
-  ```php
-  'ID_HOST' => 'http://localhost:3000',
-  ```
-- Register your ServerName from above in "/etc/hosts".
-
 - Use credential mentioned in config.php to login.
-
 
 
 NOTE: I am Creating this repo to host a mock ID  for atlas in the heroku for testing purpose

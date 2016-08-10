@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/ShekharReddy4/atlas-mockid-node/issues"
   },
-  "homepage": "https://github.com/ShekharReddy4/atlas-mockid-node#readme"
+  "homepage": "https://github.com/ShekharReddy4/atlas-mockid-node#readme",
+  "dependencies": {
+    "atlas-node-multipass": "^1.0.1",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
 }
