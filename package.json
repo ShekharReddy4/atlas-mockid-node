@@ -1,0 +1,24 @@
+{
+  "name": "atlas-mockid-node",
+  "version": "1.0.0",
+  "description": "MockID for atlas in node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShekharReddy4/atlas-mockid-node.git"
+  },
+  "keywords": [
+    "mockID",
+    "atlas",
+    "OpenMRSID"
+  ],
+  "author": "shekharreddy <shekharreddy.kmit@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShekharReddy4/atlas-mockid-node/issues"
+  },
+  "homepage": "https://github.com/ShekharReddy4/atlas-mockid-node#readme"
+}
