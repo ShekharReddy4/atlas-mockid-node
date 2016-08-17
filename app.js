@@ -1,9 +1,9 @@
-//config 
-var redirect = "http://localhost:3001/";
+//configure as per your requirements
+var redirect = "http://eppudoo.com/";
 var apikey = '1234567890abcdef';
 var sitekey = 'localhost';
 
-//users
+//users  // I have hardcoded this but you can also retrieve from db (remember this is mockid not the actual)
 var users = {
     'alexis':{ uid : 'alexis.duque',user_email: 'alexis.duque@openmrs.org',user_name :'Alexis',password : 'duque' },
     'shekhar':{ uid : 'shekhar' ,user_email: 'shekhar@openmrs.org', user_name: 'ShekharReddy', password : 'shekhar' },
@@ -27,6 +27,14 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(__dirname));
 
 //Routes
+
+app.get('/authenticate/atlas',function(req, res){
+    res.redirect('/')
+});
+
+app.get('/disconnect', function (req, res) {
+    res.redirect(redirect)
+});
 
 //get '/'
 app.get('/', function (req, res) {

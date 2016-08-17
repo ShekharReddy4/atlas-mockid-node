@@ -1,7 +1,7 @@
 MOCK OpenMRS SERVER ATLAS LOGIN MODULE IN NODE
 ==============================================
 
-[![devDependencies Status](https://david-dm.org/alanshaw/david-www/dev-status.svg)](https://david-dm.org/alanshaw/david-www?type=dev) [![devDependencies Status](https://david-dm.org/ShekharReddy4/atlas-mockid-node.svg)](https://github.com/ShekharReddy4/atlas-mockid-node/blob/master/package.json)
+[![devDependencies Status](https://david-dm.org/alanshaw/david-www/dev-status.svg)](https://david-dm.org/alanshaw/david-www?type=dev) [![devDependencies Status](https://david-dm.org/ShekharReddy4/atlas-mockid-node.svg)](https://github.com/ShekharReddy4/atlas-mockid-node/blob/master/package.json)  [![chatroom icon](https://patrolavia.github.io/telegram-badge/chat.png)](https://telegram.me/shekharreddy)
 
 Mock login module for OpenMrs Atlas Server (https://github.com/openmrs/openmrs-contrib-atlas).
 This will help in mocking the login module required to login as OpenMrs user.
