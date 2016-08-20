@@ -20,3 +20,7 @@ In app.js update
 
 
 NOTE: I am Creating this repo to host a mock ID  for atlas in heroku for testing purpose
+
+# To use this with SSO-Demo
+
+Jus Clone the repo and run using nodemon. (if the port specified is occupied the change the port [here](https://github.com/ShekharReddy4/atlas-mockid-node/blob/master/app.js#L67) )

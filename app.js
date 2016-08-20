@@ -1,5 +1,5 @@
 //configure as per your requirements
-var redirect = "http://eppudoo.com/";
+var redirect = "http://localhost:8000/";
 var apikey = '1234567890abcdef';
 var sitekey = 'localhost';
 
@@ -33,7 +33,7 @@ app.get('/authenticate/atlas',function(req, res){
 });
 
 app.get('/disconnect', function (req, res) {
-    res.redirect(redirect)
+    res.redirect(redirect);
 });
 
 //get '/'
@@ -64,6 +64,8 @@ app.post('/', function (req, res) {
     
 });
 
-app.listen(8000, function () {
-    console.log('Example app listening on port 8000!');
+var port = process.env.PORT || 8080;
+
+app.listen(port, function(){
+    console.log('http://127.0.0.1:'+port+'/');
 });
