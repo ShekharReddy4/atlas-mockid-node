@@ -1,5 +1,5 @@
 //configure as per your requirements
-var redirect = "http://localhost:8000/";
+var redirect = "http://localhost:3001/";
 var apikey = '1234567890abcdef';
 var sitekey = 'localhost';
 

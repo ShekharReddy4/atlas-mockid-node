@@ -11,9 +11,9 @@ This will help in mocking the login module required to login as OpenMrs user.
 In app.js update
 
 ```js
- $redirect_url = "http://localhost:3001/"; //locally wherever openmrs atlas module is hosted
- $site_key = "localhost"; // same as in openmrs atlas server
- $api_key = "1234567890abcdef"; // same as in openmrs atlas server
+ $redirect_url = "http://localhost:3001/"; //locally wherever openmrs atlas server is hosted
+ $site_key = "localhost"; // same as in openmrs atlas server (recommended: don't change this)
+ $api_key = "1234567890abcdef"; // same as in openmrs atlas server (recommended: don't change this)
 ```
 
 - Use credential mentioned in app.js to login.
