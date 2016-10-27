@@ -58,7 +58,7 @@ app.post('/', function (req, res) {
     }
     else
     {
-        alert("wrong credentials please check the details and sign in again");
+        //alert("wrong credentials please check the details and sign in again"); removing this line due to an error : REFERENCE ERROR: alert is not defined
         res.sendFile(path.join(__dirname+ '/auth.html'))
     }
     

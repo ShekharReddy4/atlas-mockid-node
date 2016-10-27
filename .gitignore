@@ -1,3 +1,8 @@
 # Created by .ignore support plugin (hsz.mobi)
 .idea/
 node_modules/
+/firebase.json
+.firebaserc
+404.html
+firebase.json
+index.html
