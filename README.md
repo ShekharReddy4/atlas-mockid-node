@@ -1,4 +1,4 @@
-MOCK OpenMRS SERVER ATLAS LOGIN MODULE IN NODE
+MOCK OpenMRS ATLAS SERVER LOGIN MODULE IN NODE
 ==============================================
 
 [![devDependencies Status](https://david-dm.org/alanshaw/david-www/dev-status.svg)](https://david-dm.org/alanshaw/david-www?type=dev) [![devDependencies Status](https://david-dm.org/ShekharReddy4/atlas-mockid-node.svg)](https://github.com/ShekharReddy4/atlas-mockid-node/blob/master/package.json)  [![chatroom icon](https://patrolavia.github.io/telegram-badge/chat.png)](https://telegram.me/shekharreddy)
